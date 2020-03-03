@@ -1,119 +1,95 @@
 module.exports = {
   profile: {
-    name: 'Irfan Maulana',
-    title: 'Principal Engineer for Frontend at Tokopedia',
-    photo: 'https://avatars2.githubusercontent.com/u/7221389?s=300&v=4', // 300x300px
-    city: 'Jakarta, Indonesia',
-    phone: '(+62) 857-8123-8798',
-    mail: 'mazipanneh@gmail.com'
+    name: 'Surender Lohia',
+    title: 'Frontend Developer at ThoughtWorks',
+    photo: 'https://avatars1.githubusercontent.com/u/6301437?s=460&v=4', // 300x300px
+    city: 'Bangalore, Inida',
+    website: 'https://www.surender.net/',
+    phone: '9551800431',
+    mail: 'surender.lohia.e@gmail.com'
   },
   social: {
-    facebook: {
-      name: 'mazipanneh',
-      link: 'https://web.facebook.com/mazipanneh'
-    },
     twitter: {
-      name: '@maz_ipan',
-      link: 'https://twitter.com/Maz_Ipan'
+      name: '@surender_lohia',
+      link: 'https://twitter.com/surender_lohia'
     },
     linkedin: {
-      name: 'in/mazipan',
-      link: 'https://www.linkedin.com/in/mazipan'
+      name: 'in/surenderlohia',
+      link: 'https://www.linkedin.com/in/surenderlohia'
     },
     github: {
-      name: 'mazipan',
-      link: 'https://github.com/mazipan'
+      name: 'surenderlohia',
+      link: 'https://github.com/surenderlohia'
     }
   },
-  summary: `An experienced software engineer especially in frontend side.<br/>Having deep knowledge in HTML, CSS (with its pre-processor) and JavaScript with the various framework. Write good quality, well tested, and fast delivered code.<br/>Experience in architecting frontend codebase.<br/>A well-known figure in the programming community, open-source creator, and writer for many technical articles.`,
+  summary: `Producing quality apps, focusing on writing eloquent and maintainable code. Working on Front-end, JavaScript, and Mobile App for large Scale applications.`,
   experiences: [
     {
-      company: 'Tokopedia',
-      location: 'Jakarta',
-      title: 'Principal Engineer for Frontend',
-      period: 'JUN 2019 - PRESENT',
-      jobdesc: [],
-    },
-    {
-      company: 'Bizzy Indonesia',
-      location: 'Jakarta',
-      title: 'Software Architect for Frontend',
-      period: 'FEB 2019 - JUN 2019',
+      company: 'ThoughtWorks',
+      location: 'Bangalore',
+      title: 'Frontend Developer',
+      period: 'MAY 2018 - PRESENT',
       jobdesc: [
-        'Split monolith frontend codebase into some different repository',
-        'Introduce many best practices in coding Vue.js and Nuxt.js',
-        'Creating many common utilities for easier sharing code that managed in monorepo using Lerna',
-        'Monitoring web performance',
-        'Actively sharing about how to be effective, good quality, and excellent software development process especially in frontend side.'
+        'Responsibility to develop large scale Application Front-end with HTML5, CSS3 and JavaScript & Business logics with JavaScript. Coordinate with designer and Back-end team for UI based work.'
       ],
     },
     {
-      company: 'Bizzy Indonesia',
-      location: 'Jakarta',
-      title: 'Software Development Engineer',
-      period: 'JUL 2018 - FEB 2019',
+      company: 'Tenmiles',
+      location: 'Chennai',
+      title: 'Frontend Developer',
+      period: 'JUN 2015 – MAY 2018',
       jobdesc: [
-        'Helping small team in transaction process to develop new features and fixing bugs',
-        'Setup and spread about unit test adoption in frontend codebase'
+        'Responsibility to develop large scale Application Front-end with HTML5, CSS3 and JavaScript & Business logics with JavaScript. Coordinate with designer and Back-end team for UI based work.'
       ],
     },
     {
-      company: 'Blibli.com',
-      location: 'Jakarta',
-      title: 'Sr. Software Development Engineer',
-      period: 'JAN 2017 - JUN 2018',
+      company: 'Fantain Sports',
+      location: 'Chennai',
+      title: 'Frontend Developer',
+      period: 'JAN 2014 – MAY 2015',
       jobdesc: [
-        'Helping migrate frontend codebase from JSP + AngularJS into modern codebase using Vue.js',
-        'Helping Blibli Pulsa, Blibli Travels, etc going live to production'
+        'Responsibility to develop Mobile Application Front-end with HTML5, CSS3 and JavaScript (jQuery) & Business logics with JavaScript. Coordinate with designer and Back-end team for UI based work.',
       ],
     },
     {
-      company: 'Blibli.com',
-      location: 'Jakarta',
-      title: 'Software Development Engineer',
-      period: 'OCT 2015 - JAN 2017',
+      company: 'Rage Communications - Chennai',
+      location: 'Chennai',
+      title: 'Frontend Developer',
+      period: 'OCT 2012 – DEC 2013',
+      jobdesc: [
+        'Responsibility to develop Mobile Application Front-end with HTML5, CSS3 and JavaScript (jQuery) & Business logics with JavaScript. Coordinate with designer and Back-end team for UI based work.',
+      ],
+    },
+    {
+      company: 'Sam-Sys',
+      location: 'Chennai',
+      title: 'Frontend Developer',
+      period: 'AUG 2011 – SEP 2012',
       jobdesc: [
         'Maintenance, bug fixing, adding new feature and improvement in our website.',
         'Doing frontend stuff with AngularJS, jQuery, Vanilla Javascript, JSP, JSTL, SASS, CSS3.',
         'Doing small stuff in backend using SpringMVC.'
-      ],
-    },
-    {
-      company: 'SML Technologies',
-      location: 'Jakarta',
-      title: 'Java Developer',
-      period: 'AUG 2013 - OCT 2015',
-      jobdesc: [
-        'Develop java desktop application with JIDE and JDAF Framework',
-        'Develop front-end web application with Sencha ExtJs Framework.',
-        'Develop back-end Rest API with EJB and JPA.'
-      ],
+      ]
     }
   ],
   educations: [
     {
-      name: 'Muhammadiyah University',
-      city: 'Jakarta',
+      name: 'C.Kandhaswami Naidu College for Men',
+      city: 'Chennai',
       degree: 'Bachelor Degree',
-      period: '2009 - 2013',
-      faculty: 'Bachelor of Informatics Engineering'
+      faculty: 'Bachelor of Computer Application'
     }
   ],
   projects: [
     {
-      title: 'Bizzy Front-office and Back-office',
-      company: 'Bizzy Indonesia',
-      period: 'JUL 2018 - JUN 2019'
+      title: 'Html Boilerplate',
+      company: 'Personal Project',
+      link: 'https://www.surender.net/html-boilerplate/'
     },
     {
-      title: 'Blibli.com Travel, Blibli.com Pulsa, Multi-Merchant Feature',
-      company: 'Blibli.com',
-      period: 'OCT 2015 - JUN 2018'
-    },
-    {
-      title: 'Servo Analytica 4, Traversa R3 Routing Management, SIAGA Dashboard, Servo Availability Web, Dashboard Builder',
-      company: 'SML Technologies',
-      period: 'AUG 2013 - OCT 2015'
+      title: 'HappyFox Chat',
+      company: 'HappyFox',
+      link: 'https://happyfoxchat.com/'
     }
   ],
   skills: [
@@ -135,7 +111,7 @@ module.exports = {
     }
   ],
   languages: [
-    'Bahasa Indonesia',
+    'Tamil',
     'English'
   ]
 }
