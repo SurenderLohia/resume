@@ -95,20 +95,132 @@ module.exports = {
   skills: [
     {
       name: 'Javascript',
-      progress: 70
+      category: 'basic'
     },
     {
       name: 'CSS',
-      progress: 70
+      category: 'basic'
     },
     {
       name: 'HTML',
-      progress: 70
+      category: 'basic'
     },
     {
-      name: 'FE Development',
-      progress: 70
-    }
+      name: 'Sass',
+      category: 'basic'
+    },
+    {
+      name: 'JQuery',
+      category: 'framework'
+    },
+    {
+      name: 'React',
+      category: 'framework'
+    },
+    {
+      name: 'Vue.js',
+      category: 'framework'
+    },
+    {
+      name: 'Angular',
+      category: 'framework'
+    },
+    {
+      name: 'Knockout.js',
+      category: 'framework'
+    },
+    {
+      name: 'Backbone.js',
+      category: 'framework'
+    },
+    {
+      name: 'Gulp',
+      category: 'tool'
+    },
+    {
+      name: 'Npm',
+      category: 'tool'
+    },
+    {
+      name: 'Webpack',
+      category: 'tool'
+    },
+    {
+      name: 'Mocha',
+      category: 'tool'
+    },
+    {
+      name: 'Jest',
+      category: 'tool'
+    },
+    {
+      name: 'Cypress',
+      category: 'tool'
+    },
+    {
+      name: 'Git',
+      category: 'tool'
+    },
+    {
+      name: 'Unix',
+      category: 'tool'
+    },
+    {
+      name: 'Jekyll',
+      category: 'tool'
+    },
+    {
+      name: 'Bulma',
+      category: 'css-framework'
+    },
+    {
+      name: 'Semantic UI',
+      category: 'css-framework'
+    },
+    {
+      name: 'Material UI',
+      category: 'css-framework'
+    },
+    {
+      name: 'Twitter Bootstrap',
+      category: 'css-framework'
+    },
+    {
+      name: 'PWA',
+      category: 'tech'
+    },
+    {
+      name: 'Node.js',
+      category: 'language'
+    },
+    {
+      name: 'Python',
+      category: 'language'
+    },
+    {
+      name: 'Php',
+      category: 'language'
+    },
+    {
+      name: 'Express.js',
+      category: 'backend-framework'
+    },
+    {
+      name: 'Django',
+      category: 'backend-framework'
+    },
+    {
+      name: 'Wordpress',
+      category: 'backend-framework'
+    },
+    {
+      name: 'SQLite',
+      category: 'database'
+    },
+    {
+      name: 'MongoDB',
+      category: 'database'
+    },
   ],
   languages: [
     'Tamil',

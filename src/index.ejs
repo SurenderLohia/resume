@@ -178,8 +178,7 @@
                         <div class="wrapper">
                             <% content.skills.forEach(function(skill){ %>
                                 <div class="item">
-                                    <div><%= skill.name %></div>
-                                    <progress class="progress is-primary is-small" value="<%= skill.progress %>" max="100"><%= skill.progress %>%</progress>
+                                    <%= skill.name %>
                                 </div>
                             <% }); %>
                         </div>
