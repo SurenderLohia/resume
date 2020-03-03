@@ -177,9 +177,9 @@
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">SKILLS</div>
                         <div class="wrapper">
                             <% content.skills.forEach(function(skill){ %>
-                                <div class="item">
+                                <span class="skill-item <%= skill.category %>">
                                     <%= skill.name %>
-                                </div>
+                                </span>
                             <% }); %>
                         </div>
                     </div>
@@ -196,13 +196,13 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="content has-text-centered">
             <a href="light.html">See Light Theme</a>
             <br>
             Copyright © 2020 by Surender Lohia
         </div>
-    </footer>
+    </footer> -->
 
     <footer class="line has-background-primary"></footer>
 </body>

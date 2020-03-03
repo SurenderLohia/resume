@@ -94,44 +94,44 @@ module.exports = {
   ],
   skills: [
     {
-      name: 'Javascript',
-      category: 'basic'
+      name: 'JavaScript',
+      category: 'js'
     },
     {
       name: 'CSS',
-      category: 'basic'
+      category: 'css'
     },
     {
       name: 'HTML',
-      category: 'basic'
+      category: 'html'
     },
     {
       name: 'Sass',
-      category: 'basic'
+      category: 'css'
     },
     {
       name: 'JQuery',
-      category: 'framework'
+      category: 'js'
     },
     {
       name: 'React',
-      category: 'framework'
+      category: 'js'
     },
     {
       name: 'Vue.js',
-      category: 'framework'
+      category: 'js'
     },
     {
       name: 'Angular',
-      category: 'framework'
+      category: 'js'
     },
     {
       name: 'Knockout.js',
-      category: 'framework'
+      category: 'js'
     },
     {
       name: 'Backbone.js',
-      category: 'framework'
+      category: 'js'
     },
     {
       name: 'Gulp',
@@ -171,19 +171,27 @@ module.exports = {
     },
     {
       name: 'Bulma',
-      category: 'css-framework'
+      category: 'css'
     },
     {
       name: 'Semantic UI',
-      category: 'css-framework'
+      category: 'css'
     },
     {
       name: 'Material UI',
-      category: 'css-framework'
+      category: 'css'
     },
     {
       name: 'Twitter Bootstrap',
-      category: 'css-framework'
+      category: 'css'
+    },
+    {
+      name: 'Responsive',
+      category: 'tech'
+    },
+    {
+      name: 'Mobile Web App',
+      category: 'tech'
     },
     {
       name: 'PWA',

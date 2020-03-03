@@ -64,6 +64,45 @@ body {
   padding: 3rem 1.5rem 1rem;
 }
 
+.skill-item {
+  display: inline-block;
+  padding: 1px 5px;
+  border-left: 2px solid #ccc;
+  margin: 0 7px 7px 0;
+  
+  &.html {
+    border-color: #E44D26;
+  }
+
+  &.css {
+    border-color: #2965f1;
+  }
+
+  &.js {
+    border-color: #F0DB4F;
+  }
+
+  &.tool {
+    border-color: #00d1b2;
+  }
+
+  &.tech {
+    border-color: #f14668;
+  }
+
+  &.language {
+    border-color: #ebebeb;
+  }
+
+  &.database {
+    border-color: #4DB33D;
+  }
+
+  &.backend-framework {
+    border-color: #FF9678;
+  }
+}
+
 /* Query for mobile only*/
 @media screen and (max-width: 768px){
   .profile {
