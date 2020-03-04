@@ -230,8 +230,9 @@ module.exports = {
       category: 'database'
     },
   ],
-  languages: [
-    'Tamil',
-    'English'
+  hobbies: [
+    'Reading (Currently reading “Isaikka seiyum issai”) [A Tamil book about music]',
+    'Cycling',
+    'Travelling'
   ]
 }
