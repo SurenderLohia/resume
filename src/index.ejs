@@ -67,13 +67,18 @@
                     <p class="subtitle">
                         <%= content.profile.title %>
                     </p>
+                    <p class="subtitle">
+                        <a href="<%= content.profile.website %>">
+                            <%= content.profile.website %>
+                        </a>
+                    </p>
                 </div>
                 <div class="column is-2">
                     <figure class="image image is-128x128">
                         <img class="is-rounded" src="<%= content.profile.photo %>">
                     </figure>
                 </div>
-                <div class="column has-text-grey-light has-text-right-in-desktop">
+                <div class="column has-text-grey-light has-text-right">
                     <p class="has-text-weight-light">
                         <%= content.profile.city %>
                     </p>
@@ -148,7 +153,7 @@
                         <% content.educations.forEach(function(education){ %>
                             <div class="item">
                                 <div class="is-size-5">
-                                    <b><%= education.name %></b>,
+                                    <b><%= education.name %></b>, <br>
                                     <span class="has-text-weight-semi-bold">
                                         <%= education.city %> — <i><%= education.degree %></i>
                                     </span>
@@ -182,7 +187,15 @@
                                 </div>
                             </div>
                             <% }); %>
-
+                                <div class="item">
+                                    <div class="is-size-5">
+                                        More Projects
+                                    </div>
+                                    <div class="is-size-7">
+                                        <a href="https://www.linkedin.com/in/surenderlohia">https://www.linkedin.com/in/surenderlohia
+                                        </a>
+                                    </div>
+                                </div>
                     </div>
 
                     <div class="skills">
@@ -195,7 +208,7 @@
                                 <% }); %>
                         </div>
                     </div>
-                    <div class="languages">
+                    <div class="hobbies">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">HOBBIES</div>
                         <div class="wrapper">
                             <% content.hobbies.forEach(function(lang){ %>

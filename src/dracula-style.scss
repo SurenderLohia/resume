@@ -126,3 +126,34 @@ body {
         text-align: right;
     }
 }
+
+.is-size-7 {
+    font-size: 0.8rem !important;
+}
+
+// Print
+@media print {
+    body,
+    .title,
+    .subtitle {
+        color: #333;
+    }
+    .profile svg {
+        fill: #aaa;
+    }
+    .projects .item {
+        .is-size-5 {
+            font-size: 1.1rem !important;
+        }
+    }
+    .experience {
+        .item {
+            &:last-child {
+                margin-top: 80px;
+            }
+            .is-size-5 {
+                font-size: 1.1rem !important;
+            }
+        }
+    }
+}
