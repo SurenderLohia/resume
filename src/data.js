@@ -77,13 +77,13 @@ module.exports = {
     }],
     projects: [{
             title: 'World Movies',
-            company: 'Personal Project',
+            company: 'Opersource Project',
             link: 'http://world-movies.surge.sh/#/',
             description: 'A simple movie listing app. A demo app created for cypress workshop.'
         },
         {
             title: 'Html Boilerplate',
-            company: 'Personal Project',
+            company: 'Opersource Project',
             link: 'https://www.surender.net/html-boilerplate/',
             description: 'A simple boilerplate code for html | Html boilerplate | html hello world | html starter kit'
         },

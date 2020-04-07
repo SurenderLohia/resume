@@ -1,5 +1,5 @@
 {
-    "name": "bulma-resume-template",
+    "name": "resume",
     "version": "1.0.0",
     "description": "💼 Free resume page template with bulma css",
     "main": "index.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mazipan/bulma-resume-template.git"
+        "url": "git+https://github.com/surenderlohia/resume.git"
     },
     "keywords": [
         "bulma",
@@ -19,12 +19,12 @@
         "resume-template",
         "resume-website"
     ],
-    "author": "Irfan Maulana <github.com/mazipan/>",
+    "author": "Surender Lohia",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/mazipan/bulma-resume-template/issues"
+        "url": "https://github.com/surenderlohia/resume/issues"
     },
-    "homepage": "https://github.com/mazipan/bulma-resume-template#readme",
+    "homepage": "https://github.com/surenderlohia/resume#readme",
     "devDependencies": {
         "@babel/core": "7.8.4",
         "@babel/preset-env": "7.8.4",
