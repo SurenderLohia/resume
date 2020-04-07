@@ -1,7 +1,7 @@
 module.exports = {
     profile: {
         name: 'Surender Lohia',
-        title: 'Frontend Developer at ThoughtWorks',
+        title: 'Frontend Developer',
         photo: 'https://avatars1.githubusercontent.com/u/6301437?s=460&v=4', // 300x300px
         city: 'Bangalore, India',
         website: 'https://www.surender.net/',
@@ -27,7 +27,7 @@ module.exports = {
             company: 'ThoughtWorks',
             location: 'Bangalore',
             title: 'Frontend Developer',
-            period: 'MAY 2018 - PRESENT',
+            period: 'MAY 2018 - MAR 2020',
             jobdesc: [
                 'Responsibility to develop large scale application. Coordinate with designer, back-end devs and BA. Front-end tech stack HTML5, CSS3, JavaScript, Sass, React, Redux, Webpack, Npm, Jest.'
             ],
@@ -77,13 +77,13 @@ module.exports = {
     }],
     projects: [{
             title: 'World Movies',
-            company: 'Opersource Project',
+            company: 'Open Source Project',
             link: 'http://world-movies.surge.sh/#/',
             description: 'A simple movie listing app. A demo app created for cypress workshop.'
         },
         {
             title: 'Html Boilerplate',
-            company: 'Opersource Project',
+            company: 'Open Source Project',
             link: 'https://www.surender.net/html-boilerplate/',
             description: 'A simple boilerplate code for html | Html boilerplate | html hello world | html starter kit'
         },

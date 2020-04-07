@@ -24,7 +24,7 @@
     "bugs": {
         "url": "https://github.com/surenderlohia/resume/issues"
     },
-    "homepage": "https://github.com/surenderlohia/resume#readme",
+    "homepage": "https://github.com/surenderlohia/resume",
     "devDependencies": {
         "@babel/core": "7.8.4",
         "@babel/preset-env": "7.8.4",
