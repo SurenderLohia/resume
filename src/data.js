@@ -75,23 +75,30 @@ module.exports = {
         degree: 'Bachelor Degree',
         faculty: 'Bachelor of Computer Application'
     }],
-    projects: [{
+    projects: [
+        {
+            title: 'Fedi-Todo',
+            company: 'Open Source Project',
+            link: 'https://www.surender.net/fedi-todo',
+            description: 'A simple todo list PWA app for Front-end Developer Interview preparation.'
+        },
+        {
             title: 'World Movies',
             company: 'Open Source Project',
             link: 'http://world-movies.surge.sh/#/',
             description: 'A simple movie listing app. A demo app created for cypress workshop.'
         },
         {
-            title: 'Html Boilerplate',
-            company: 'Open Source Project',
-            link: 'https://www.surender.net/html-boilerplate/',
-            description: 'A simple boilerplate code for html | Html boilerplate | html hello world | html starter kit'
-        },
-        {
             title: 'HappyFox Chat',
             company: 'HappyFox',
             link: 'https://happyfoxchat.com/',
             description: 'HappyFox Chat is a live chat application. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Backbone.js, React.js.'
+        }
+        {
+            title: 'World Movies',
+            company: 'Open Source Project',
+            link: 'http://world-movies.surge.sh/#/',
+            description: 'A simple movie listing app. A demo app created for cypress workshop.'
         }
     ],
     skills: [{

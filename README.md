@@ -39,7 +39,7 @@ npm run dist
 
 ### To publish to github pages
 ```
-npm run publish-demo
+npm run deploy
 ```
 Note: before publish edit `homepage` and `repository.url` in package.json
 

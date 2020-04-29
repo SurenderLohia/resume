@@ -79,7 +79,7 @@
                         <img class="is-rounded" src="<%= content.profile.photo %>">
                     </figure>
                 </div>
-                <div class="column has-text-grey-light has-text-right">
+                <div class="column has-text-grey-light has-text-right-desktop">
                     <p class="has-text-weight-light">
                         <%= content.profile.city %>
                     </p>
@@ -174,7 +174,7 @@
                     <div class="projects">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">PROJECTS</div>
 
-                        <% content.projects.forEach(function(proj){ %>
+                        <% content.projects.slice(0, 3).forEach(function(proj){ %>
                             <div class="item">
                                 <div class="is-size-5">
                                     <a href="<%= proj.link %>">
