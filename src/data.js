@@ -93,7 +93,7 @@ module.exports = {
             company: 'HappyFox',
             link: 'https://happyfoxchat.com/',
             description: 'HappyFox Chat is a live chat application. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Backbone.js, React.js.'
-        }
+        },
         {
             title: 'World Movies',
             company: 'Open Source Project',
