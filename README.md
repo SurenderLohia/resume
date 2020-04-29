@@ -34,7 +34,7 @@ It will start the local server: http://localhost:8080/ and listen for changes.
 
 ### To build production version
 ```
-npm run dist
+npm run build
 ```
 
 ### To publish to github pages
