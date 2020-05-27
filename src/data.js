@@ -1,7 +1,7 @@
 module.exports = {
     profile: {
         name: 'Surender Lohia',
-        title: 'Frontend Developer',
+        title: 'Senior Frontend Developer at Tenantcube',
         photo: 'https://avatars1.githubusercontent.com/u/6301437?s=460&v=4', // 300x300px
         city: 'Bangalore, India',
         website: 'https://www.surender.net/',
@@ -23,7 +23,17 @@ module.exports = {
         }
     },
     summary: `Producing quality apps, focusing on writing eloquent and maintainable code. Working on Front-end, JavaScript, and Mobile App for large Scale applications.`,
-    experiences: [{
+    experiences: [
+        {
+            company: 'Tenantcube',
+            location: 'Bangalore',
+            title: 'Senior Frontend Developer',
+            period: 'MAY 2020 - PRESENT',
+            jobdesc: [
+                'Responsibility to develop large scale application. Coordinate with designer, back-end devs and BA. Front-end tech stack HTML5, CSS3, JavaScript, Sass, React, Redux, Webpack, Npm, Jest.'
+            ],
+        },
+        {
             company: 'ThoughtWorks',
             location: 'Bangalore',
             title: 'Frontend Developer',
