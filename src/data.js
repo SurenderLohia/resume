@@ -89,26 +89,26 @@ module.exports = {
         {
             title: 'Fedi-Todo',
             company: 'Open Source Project',
-            link: 'https://www.surender.net/fedi-todo',
+            link: 'https://fedi-todo.surge.sh',
             description: 'A simple todo list PWA app for Front-end Developer Interview preparation.'
         },
         {
             title: 'World Movies',
             company: 'Open Source Project',
-            link: 'http://world-movies.surge.sh/#/',
+            link: 'https://world-movies.surge.sh',
             description: 'A simple movie listing app. A demo app created for cypress workshop.'
+        },
+        {
+            title: 'Dude Quotes',
+            company: 'Open Source Project',
+            link: 'https://dude-quotes.surge.sh',
+            description: 'A simple quote app listing app with basic cred functionality.'
         },
         {
             title: 'HappyFox Chat',
             company: 'HappyFox',
-            link: 'https://happyfoxchat.com/',
+            link: 'https://happyfoxchat.com',
             description: 'HappyFox Chat is a live chat application. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Backbone.js, React.js.'
-        },
-        {
-            title: 'World Movies',
-            company: 'Open Source Project',
-            link: 'http://world-movies.surge.sh/#/',
-            description: 'A simple movie listing app. A demo app created for cypress workshop.'
         }
     ],
     skills: [{
@@ -141,6 +141,10 @@ module.exports = {
         },
         {
             name: 'Angular',
+            category: 'js'
+        },
+        {
+            name: 'Svelte',
             category: 'js'
         },
         {
