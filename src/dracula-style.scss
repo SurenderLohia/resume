@@ -119,6 +119,20 @@ body {
     }
 }
 
+// Query for tablet portrait and up
+
+@media (min-width: 769px) {
+    .has-text-right-desktop {
+        text-align: right;
+    }
+}
+
+@media print and (min-width: 600px) {
+    .has-text-right-desktop {
+        text-align: right;
+    }
+}
+
 
 /* Query for desktop only*/
 
