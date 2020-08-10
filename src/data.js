@@ -102,13 +102,25 @@ module.exports = {
             title: 'Dude Quotes',
             company: 'Open Source Project',
             link: 'https://dude-quotes.surge.sh',
-            description: 'A simple quote app listing app with basic cred functionality.'
+            description: 'A simple quote listing app with basic cred functionality.'
         },
         {
             title: 'HappyFox Chat',
             company: 'HappyFox',
             link: 'https://happyfoxchat.com',
             description: 'HappyFox Chat is a live chat application. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Backbone.js, React.js.'
+        },
+        {
+            title: 'Fantain',
+            company: 'Fantain',
+            link: 'https://play.google.com/store/apps/details?id=com.fantain.comainapp',
+            description: 'Fantain is the cool new hangout for the sports fan! Sports fans want a lot from the the sports they follow. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Knockout.js, Apache Cordova.'
+        },
+        {
+            title: 'Html Boilerplate',
+            company: 'Open Source Project',
+            link: 'https://www.surender.net/html-boilerplate/',
+            description: 'A simple boilerplate code for html. Built with HTML, CSS, and JavaScript.'
         }
     ],
     skills: [{
