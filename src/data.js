@@ -156,6 +156,14 @@ module.exports = {
             category: 'js'
         },
         {
+            name: 'Redux',
+            category: 'js'
+        },
+        {
+            name: 'Vuex',
+            category: 'js'
+        },
+        {
             name: 'Svelte',
             category: 'js'
         },
