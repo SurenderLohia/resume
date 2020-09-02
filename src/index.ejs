@@ -112,7 +112,7 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-three-fifths">
+                <div class="column">
                     <div class="summary">
                         <div class="title is-size-5 has-text-primary has-text-weight-bold">SUMMARY</div>
                         <div class="wrapper">
@@ -169,6 +169,15 @@
                             <% }); %>
                     </div>
 
+                    <div class="hobbies">
+                        <div class="title is-size-5 has-text-primary has-text-weight-bold">HOBBIES</div>
+                        <div class="wrapper">
+                            <% content.hobbies.forEach(function(lang){ %>
+                                <%= lang %>,
+                                    <% }); %>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="column">
                     <div class="projects">
@@ -186,6 +195,12 @@
                                 <div class="is-size-7">
                                     <%= proj.link %>
                                 </div>
+                                <p class="mt1 mb1">
+                                    <%= proj.description %>
+                                </p>
+                                <p>
+                                    <strong>Tech Stack: </strong><%= proj.techStack %>
+                                </p>
                             </div>
                             <% }); %>
                                 <div class="item">
@@ -207,14 +222,6 @@
                                     <%= skill.name %>
                                 </span>
                                 <% }); %>
-                        </div>
-                    </div>
-                    <div class="hobbies">
-                        <div class="title is-size-5 has-text-primary has-text-weight-bold">HOBBIES</div>
-                        <div class="wrapper">
-                            <% content.hobbies.forEach(function(lang){ %>
-                                <%= lang %>,
-                                    <% }); %>
                         </div>
                     </div>
                 </div>

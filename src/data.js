@@ -90,37 +90,43 @@ module.exports = {
             title: 'Fedi-Todo',
             company: 'Open Source Project',
             link: 'https://fedi-todo.surge.sh',
-            description: 'A simple todo list PWA app for Front-end Developer Interview preparation.'
-        },
-        {
-            title: 'World Movies',
-            company: 'Open Source Project',
-            link: 'https://world-movies.surge.sh',
-            description: 'A simple movie listing app. A demo app created for cypress workshop.'
-        },
-        {
-            title: 'Dude Quotes',
-            company: 'Open Source Project',
-            link: 'https://dude-quotes.surge.sh',
-            description: 'A simple quote listing app with basic cred functionality.'
+            description: 'Todo List Progressive Web App for Front-end Developer interview preparation.',
+            techStack: 'HTML5, CSS3, JavaScript and Svelte.'
         },
         {
             title: 'HappyFox Chat',
             company: 'HappyFox',
             link: 'https://happyfoxchat.com',
-            description: 'HappyFox Chat is a live chat application. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Backbone.js, React.js.'
+            description: 'HappyFox Chat is a live chat application. My responsibility was Front-end development. HappyFox Chat widget can be installable on client\'s websites after that they can able to chat with there end users. Here I was worked on both Admin module as well as the Chat widget.',
+            techStack: 'HTML5, CSS3, JavaScript, React, Backbone.js, Bootstrap, Node.js, Express, and MongoDB.'
+        },
+        {
+            title: 'World Movies',
+            company: 'Open Source Project',
+            link: 'https://world-movies.surge.sh',
+            description: 'Movies listing app with search and filter functionality. Listed movies are predefined movie collection from a book.',
+            techStack: 'HTML5, CSS3, JavaScript, Vue.js, Bulma, Basscss, and Cypress.'
+        },
+        {
+            title: 'Dude Quotes',
+            company: 'Open Source Project',
+            link: 'https://dude-quotes.surge.sh',
+            description: 'Quotes listing app with the ability to add new quotes by the user.',
+            techStack: 'HTML5, CSS3, JavaScript, Angular, Node, Express and Mongodb.'
         },
         {
             title: 'Fantain',
             company: 'Fantain',
             link: 'https://play.google.com/store/apps/details?id=com.fantain.comainapp',
-            description: 'Fantain is the cool new hangout for the sports fan! Sports fans want a lot from the the sports they follow. My responsibility is Front-end development, using HTML5, CSS3, JavaScript, Sass, Knockout.js, Apache Cordova.'
+            description: 'Fantain is the cool new hangout for the sports fan! Sports fans want a lot from the the sports they follow. My responsibility was Front-end development.',
+            techStack: 'HTML5, CSS3, JavaScript, Sass, Knockout.js, Apache Cordova.'
         },
         {
             title: 'Html Boilerplate',
             company: 'Open Source Project',
             link: 'https://www.surender.net/html-boilerplate/',
-            description: 'A simple boilerplate code for html. Built with HTML, CSS, and JavaScript.'
+            description: 'A simple boilerplate code for html. Built with HTML, CSS, and JavaScript.',
+            techStack: 'HTML5, CSS3, JavaScript'
         }
     ],
     skills: [{
@@ -173,6 +179,14 @@ module.exports = {
         },
         {
             name: 'Backbone.js',
+            category: 'js'
+        },
+        {
+            name: 'TypeScript',
+            category: 'js'
+        },
+        {
+            name: 'D3',
             category: 'js'
         },
         {
