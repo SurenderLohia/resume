@@ -1,295 +1,96 @@
 module.exports = {
-    profile: {
-        name: 'Surender Lohia',
-        title: 'Senior Frontend Developer at Tenantcube',
-        photo: 'https://avatars1.githubusercontent.com/u/6301437?s=460&v=4', // 300x300px
-        city: 'Bangalore, India',
-        website: 'https://www.surender.net/',
-        phone: '9551800431',
-        mail: 'surender.lohia.e@gmail.com'
+  profile: {
+    name: "Karthikeyan",
+    title: "ACM - Area Collection Manager",
+    photo: "https://avatars1.githubusercontent.com/u/6301437?s=460&v=4", // 300x300px
+    city: "Chennai, India",
+    phone: "9710101067",
+    mail: "karthikn2015@gmail.com",
+  },
+  summary: `Working with people as a good team player Smart and kind of Hard-working Person Grasp the information quickly and work hard to complete the tasks within a schedule. Having 12+ Years experience in this field.`,
+  experiences: [
+    {
+      company: "JANA Small Finance Bank",
+      location: "Chennai",
+      title:
+        "JMC (Agent Banking) , AH - Nano, AH - SBACM (Area Collection Manager)",
+      period: "FEB 2017 - PRESENT",
+      jobdesc: [
+        "Responsibility for team handling, providing training, creating work schedules, filing timesheets, and performing any disciplinary actions.",
+      ],
     },
-    social: {
-        twitter: {
-            name: '@surender_lohia',
-            link: 'https://twitter.com/surender_lohia'
-        },
-        linkedin: {
-            name: 'in/surenderlohia',
-            link: 'https://www.linkedin.com/in/surenderlohia'
-        },
-        github: {
-            name: 'surenderlohia',
-            link: 'https://github.com/surenderlohia'
-        }
+    {
+      company: "GIONEE",
+      location: "Chennai",
+      title: "SENIOR SALES EXECUTIVE",
+      period: "APR 2016 – OCT 2016",
+      title2: "ACM (Area Collection Manager)",
+      period2: "FEB 2017 - PRESENT",
+      jobdesc: [
+        "Responsibility to Territory Sales Managers oversee the daily sales operations of Sales Representatives that are assigned to a particular geographical area. They train sales employees, develop effective sales strategies, and ensure that sales quotas for an assigned territory are met. Maintaining customer relationships. Setting and meeting sales targets to increase revenue. Finding ways to ensure efficiency of sales operations.",
+      ],
     },
-    summary: `Producing quality apps, focusing on writing eloquent and maintainable code. Working on Front-end, JavaScript, and Mobile App for large Scale applications.`,
-    experiences: [
-        {
-            company: 'Tenantcube',
-            location: 'Bangalore',
-            title: 'Senior Frontend Developer',
-            period: 'MAY 2020 - PRESENT',
-            jobdesc: [
-                'Responsibility to develop large scale application. Coordinate with designer, back-end devs and BA. Front-end tech stack HTML5, CSS3, JavaScript, Sass, React, Redux, Webpack, Npm, Jest.'
-            ],
-        },
-        {
-            company: 'ThoughtWorks',
-            location: 'Bangalore',
-            title: 'Frontend Developer',
-            period: 'MAY 2018 - MAR 2020',
-            jobdesc: [
-                'Responsibility to develop large scale application. Coordinate with designer, back-end devs and BA. Front-end tech stack HTML5, CSS3, JavaScript, Sass, React, Redux, Webpack, Npm, Jest.'
-            ],
-        },
-        {
-            company: 'Tenmiles',
-            location: 'Chennai',
-            title: 'Frontend Developer',
-            period: 'JUN 2015 – MAY 2018',
-            jobdesc: [
-                'Front End and JavaScript development for large scale chat application. Front-end tech stack HTML5, CSS3, JavaScript, Sass, BackboneJS, jQuery, React'
-            ],
-        },
-        {
-            company: 'Fantain Sports',
-            location: 'Chennai',
-            title: 'Frontend Developer',
-            period: 'JAN 2014 – MAY 2015',
-            jobdesc: [
-                'Mobile Application Front-end and JavaScript Development for large scale application. Front-end tech stack HTML5, CSS3, JavaScript, Knockout JS, Require JS, Sass, and Cordova.',
-            ],
-        },
-        {
-            company: 'Rage Communications',
-            location: 'Chennai',
-            title: 'Frontend Developer',
-            period: 'OCT 2012 – DEC 2013',
-            jobdesc: [
-                'Front End Web development with Web Standards and Cross browser compatibility. Coordinate with designer and Back-End team. Front-end tech stack HTML, CSS, JavaScript, jQuery.',
-            ],
-        },
-        {
-            company: 'Sam-Sys',
-            location: 'Chennai',
-            title: 'Frontend Developer',
-            period: 'AUG 2011 – SEP 2012',
-            jobdesc: [
-                'Front End Web development with Web Standards and Cross browser compatibility. Coordinate with designer and Back-End team. Front-end tech stack HTML, CSS, JavaScript, jQuery, Sass.'
-            ]
-        }
-    ],
-    educations: [{
-        name: 'C.Kandhaswami Naidu College for Men',
-        city: 'Chennai',
-        degree: 'Bachelor Degree',
-        faculty: 'Bachelor of Computer Application'
-    }],
-    projects: [
-        {
-            title: 'Fedi-Todo',
-            company: 'Open Source Project',
-            link: 'https://fedi-todo.surge.sh',
-            description: 'Todo List Progressive Web App for Front-end Developer interview preparation.',
-            techStack: 'HTML5, CSS3, JavaScript and Svelte.'
-        },
-        {
-            title: 'HappyFox Chat',
-            company: 'HappyFox',
-            link: 'https://happyfoxchat.com',
-            description: 'HappyFox Chat is a live chat application. My responsibility was Front-end development. HappyFox Chat widget can be installable on client\'s websites after that they can able to chat with there end users. Here I was worked on both Admin module as well as the Chat widget.',
-            techStack: 'HTML5, CSS3, JavaScript, React, Backbone.js, Bootstrap, Node.js, Express, and MongoDB.'
-        },
-        {
-            title: 'World Movies',
-            company: 'Open Source Project',
-            link: 'https://world-movies.surge.sh',
-            description: 'Movies listing app with search and filter functionality. Listed movies are predefined movie collection from a book.',
-            techStack: 'HTML5, CSS3, JavaScript, Vue.js, Bulma, Basscss, and Cypress.'
-        },
-        {
-            title: 'Dude Quotes',
-            company: 'Open Source Project',
-            link: 'https://dude-quotes.surge.sh',
-            description: 'Quotes listing app with the ability to add new quotes by the user.',
-            techStack: 'HTML5, CSS3, JavaScript, Angular, Node, Express and Mongodb.'
-        },
-        {
-            title: 'Fantain',
-            company: 'Fantain',
-            link: 'https://play.google.com/store/apps/details?id=com.fantain.comainapp',
-            description: 'Fantain is the cool new hangout for the sports fan! Sports fans want a lot from the the sports they follow. My responsibility was Front-end development.',
-            techStack: 'HTML5, CSS3, JavaScript, Sass, Knockout.js, Apache Cordova.'
-        },
-        {
-            title: 'Html Boilerplate',
-            company: 'Open Source Project',
-            link: 'https://www.surender.net/html-boilerplate/',
-            description: 'A simple boilerplate code for html. Built with HTML, CSS, and JavaScript.',
-            techStack: 'HTML5, CSS3, JavaScript'
-        }
-    ],
-    skills: [{
-            name: 'JavaScript',
-            category: 'js'
-        },
-        {
-            name: 'CSS',
-            category: 'css'
-        },
-        {
-            name: 'HTML',
-            category: 'html'
-        },
-        {
-            name: 'Sass',
-            category: 'css'
-        },
-        {
-            name: 'JQuery',
-            category: 'js'
-        },
-        {
-            name: 'React',
-            category: 'js'
-        },
-        {
-            name: 'Vue.js',
-            category: 'js'
-        },
-        {
-            name: 'Angular',
-            category: 'js'
-        },
-        {
-            name: 'Redux',
-            category: 'js'
-        },
-        {
-            name: 'Vuex',
-            category: 'js'
-        },
-        {
-            name: 'Svelte',
-            category: 'js'
-        },
-        {
-            name: 'Knockout.js',
-            category: 'js'
-        },
-        {
-            name: 'Backbone.js',
-            category: 'js'
-        },
-        {
-            name: 'TypeScript',
-            category: 'js'
-        },
-        {
-            name: 'D3',
-            category: 'js'
-        },
-        {
-            name: 'Gulp',
-            category: 'tool'
-        },
-        {
-            name: 'Npm',
-            category: 'tool'
-        },
-        {
-            name: 'Webpack',
-            category: 'tool'
-        },
-        {
-            name: 'Mocha',
-            category: 'tool'
-        },
-        {
-            name: 'Jest',
-            category: 'tool'
-        },
-        {
-            name: 'Cypress',
-            category: 'tool'
-        },
-        {
-            name: 'Git',
-            category: 'tool'
-        },
-        {
-            name: 'Unix',
-            category: 'tool'
-        },
-        {
-            name: 'Jekyll',
-            category: 'tool'
-        },
-        {
-            name: 'Bulma',
-            category: 'css'
-        },
-        {
-            name: 'Semantic UI',
-            category: 'css'
-        },
-        {
-            name: 'Material UI',
-            category: 'css'
-        },
-        {
-            name: 'Twitter Bootstrap',
-            category: 'css'
-        },
-        {
-            name: 'Responsive',
-            category: 'tech'
-        },
-        {
-            name: 'Mobile Web App',
-            category: 'tech'
-        },
-        {
-            name: 'PWA',
-            category: 'tech'
-        },
-        {
-            name: 'Node.js',
-            category: 'language'
-        },
-        {
-            name: 'Python',
-            category: 'language'
-        },
-        {
-            name: 'Php',
-            category: 'language'
-        },
-        {
-            name: 'Express.js',
-            category: 'backend-framework'
-        },
-        {
-            name: 'Django',
-            category: 'backend-framework'
-        },
-        {
-            name: 'Wordpress',
-            category: 'backend-framework'
-        },
-        {
-            name: 'SQLite',
-            category: 'database'
-        },
-        {
-            name: 'MongoDB',
-            category: 'database'
-        },
-    ],
-    hobbies: [
-        'Reading',
-        'Coding',
-        'Cycling',
-        'Travelling'
-    ]
-}
+    {
+      company: "MTS",
+      location: "Chennai",
+      title: "SALES EXECUTIVE (Star FOS)",
+      period: "SEP 2013 – APR 2016",
+      jobdesc: [
+        "Responsibility to Selling products(sim and data card) and services using solid arguments to prospective customers.",
+      ],
+    },
+    {
+      company: "TATA DOCOMO",
+      location: "Chennai",
+      title: "SALES EXECUTIVE",
+      period: "JUN 2012 – JUL 2013",
+      jobdesc: [
+        "Responsibility to Selling products(sim and data card) and services using solid arguments to prospective customers.",
+      ],
+    },
+    {
+      company: "MTS (Mobile Telecom Service)",
+      location: "Chennai",
+      title: "SALES EXECUTIVE",
+      period: "JUN 2009 – MAY 2012",
+      jobdesc: [
+        "Responsibility to Selling products(sim and data card) and services using solid arguments to prospective customers.",
+      ],
+    },
+  ],
+  educations: [
+    {
+      name: "Mohamed Sathak College of Arts and Science, Madras University",
+      city: "Chennai",
+      degree: "B.com",
+      faculty: "Bachelor of Commerce",
+    },
+  ],
+  skills: [
+    {
+      name: "MS Excel",
+      category: "js",
+    },
+    {
+      name: "MS Word",
+      category: "js",
+    },
+    {
+      name: "MS Powerpoint",
+      category: "js",
+    },
+    {
+      name: "Tally 6.3",
+      category: "css",
+    },
+    {
+      name: "Email communication",
+      category: "css",
+    },
+    {
+      name: "Windows",
+      category: "html",
+    },
+  ],
+  hobbies: ["Reading", "Cycling", "Travelling"],
+};

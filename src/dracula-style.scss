@@ -2,26 +2,26 @@ $theme: #bd93f9;
 $grey: #b5b5b5;
 @import "~bulma-dracula/src/bulma-dracula.scss";
 @media screen and (min-width: 1408px) {
-    .container {
-        max-width: 1152px;
-    }
+  .container {
+    max-width: 1152px;
+  }
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .line {
-    height: 10px;
+  height: 10px;
 }
 
 .hr {
-    border-bottom: 10px solid $theme;
-    margin: 0 1.5rem;
+  border-bottom: 10px solid $theme;
+  margin: 0 1.5rem;
 }
 
 .section {
-    padding: 3rem 1.5rem 1rem;
+  padding: 3rem 1.5rem 1rem;
 }
 
 .summary,
@@ -32,11 +32,11 @@ body {
 .awards,
 .languages,
 .hobbies {
-    margin-bottom: 1.5rem;
-    .title {
-        padding: .5em 0;
-        border-bottom: 1px solid $theme;
-    }
+  margin-bottom: 1.5rem;
+  .title {
+    padding: 0.5em 0;
+    border-bottom: 1px solid $theme;
+  }
 }
 
 .experience,
@@ -44,140 +44,151 @@ body {
 .projects,
 .skills,
 .awards {
-    .item {
-        padding: .5em 0;
-    }
+  .item {
+    padding: 0.5em 0;
+  }
 }
 
 .profile {
-    .image {
-        margin: 0 auto;
-    }
-    svg {
-        fill: $grey;
-    }
+  .image {
+    margin: 0 auto;
+  }
+  svg {
+    fill: $grey;
+  }
 }
 
 .social-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  a {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    a {
-        display: flex;
-        align-items: center;
-    }
-    svg {
-        height: 2rem;
-        width: 2rem;
-    }
+  }
+  svg {
+    height: 2rem;
+    width: 2rem;
+  }
 }
 
 .footer {
-    padding: 3rem 1.5rem 1rem;
+  padding: 3rem 1.5rem 1rem;
 }
 
 .skill-item {
-    display: inline-block;
-    padding: 1px 5px;
-    border-left: 2px solid #ccc;
-    margin: 0 7px 7px 0;
-    &.html {
-        border-color: #E44D26;
-    }
-    &.css {
-        border-color: #2965f1;
-    }
-    &.js {
-        border-color: #F0DB4F;
-    }
-    &.tool {
-        border-color: #00d1b2;
-    }
-    &.tech {
-        border-color: #f14668;
-    }
-    &.language {
-        border-color: #ebebeb;
-    }
-    &.database {
-        border-color: #4DB33D;
-    }
-    &.backend-framework {
-        border-color: #FF9678;
-    }
+  display: inline-block;
+  padding: 1px 5px;
+  border-left: 2px solid #ccc;
+  margin: 0 7px 7px 0;
+  &.html {
+    border-color: #e44d26;
+  }
+  &.css {
+    border-color: #2965f1;
+  }
+  &.js {
+    border-color: #f0db4f;
+  }
+  &.tool {
+    border-color: #00d1b2;
+  }
+  &.tech {
+    border-color: #f14668;
+  }
+  &.language {
+    border-color: #ebebeb;
+  }
+  &.database {
+    border-color: #4db33d;
+  }
+  &.backend-framework {
+    border-color: #ff9678;
+  }
 }
 
 // Helpers
 .mt1 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .mb1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
+.list-disc,
+.list-square {
+  padding-left: 15px;
+}
+
+.list-disc {
+  list-style: disc;
+}
+
+.list-square {
+  list-style: square;
+}
 
 /* Query for mobile only*/
 
 @media screen and (max-width: 768px) {
-    .profile {
-        text-align: center;
-    }
-    .social-icon {
-        justify-content: center;
-    }
+  .profile {
+    text-align: center;
+  }
+  .social-icon {
+    justify-content: center;
+  }
 }
 
 // Query for tablet portrait and up
 
 @media (min-width: 769px) {
-    .has-text-right-desktop {
-        text-align: right;
-    }
+  .has-text-right-desktop {
+    text-align: right;
+  }
 }
 
 @media print and (min-width: 600px) {
-    .has-text-right-desktop {
-        text-align: right;
-    }
+  .has-text-right-desktop {
+    text-align: right;
+  }
 }
-
 
 /* Query for desktop only*/
 
 @media screen and (min-width: 1023px) {
-    .has-text-right-in-desktop {
-        text-align: right;
-    }
+  .has-text-right-in-desktop {
+    text-align: right;
+  }
 }
 
 .is-size-7 {
-    font-size: 0.8rem !important;
+  font-size: 0.8rem !important;
 }
 
 // Print
 @media print {
-    body,
-    .title,
-    .subtitle {
-        color: #333;
+  body,
+  .title,
+  .subtitle {
+    color: #333;
+  }
+  .profile svg {
+    fill: #aaa;
+  }
+  .projects .item {
+    .is-size-5 {
+      font-size: 1.1rem !important;
     }
-    .profile svg {
-        fill: #aaa;
+  }
+  .experience {
+    .item {
+      &:last-child {
+        margin-top: 80px;
+      }
+      .is-size-5 {
+        font-size: 1.1rem !important;
+      }
     }
-    .projects .item {
-        .is-size-5 {
-            font-size: 1.1rem !important;
-        }
-    }
-    .experience {
-        .item {
-            &:last-child {
-                margin-top: 80px;
-            }
-            .is-size-5 {
-                font-size: 1.1rem !important;
-            }
-        }
-    }
+  }
 }
