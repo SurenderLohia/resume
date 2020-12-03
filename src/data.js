@@ -1,6 +1,6 @@
 module.exports = {
   profile: {
-    name: "Karthikeyan",
+    name: "Karthikeyan .P",
     title: "ACM - Area Collection Manager",
     photo: "https://avatars1.githubusercontent.com/u/6301437?s=460&v=4", // 300x300px
     city: "Chennai, India",
@@ -22,10 +22,10 @@ module.exports = {
     {
       company: "GIONEE",
       location: "Chennai",
-      title: "SENIOR SALES EXECUTIVE",
-      period: "APR 2016 – OCT 2016",
-      title2: "ACM (Area Collection Manager)",
-      period2: "FEB 2017 - PRESENT",
+      title2: "SENIOR SALES EXECUTIVE",
+      period2: "APR 2016 – OCT 2016",
+      title: "SENIOR SALES EXECUTIVE | TSM (Territory Sales Manager)",
+      period: "APR 2016 - Feb 2017",
       jobdesc: [
         "Responsibility to Territory Sales Managers oversee the daily sales operations of Sales Representatives that are assigned to a particular geographical area. They train sales employees, develop effective sales strategies, and ensure that sales quotas for an assigned territory are met. Maintaining customer relationships. Setting and meeting sales targets to increase revenue. Finding ways to ensure efficiency of sales operations.",
       ],
@@ -55,6 +55,15 @@ module.exports = {
       period: "JUN 2009 – MAY 2012",
       jobdesc: [
         "Responsibility to Selling products(sim and data card) and services using solid arguments to prospective customers.",
+      ],
+    },
+    {
+      company: "BON TERRE CONSTRUCTION",
+      location: "Chennai",
+      title: "ACCOUNTANT",
+      period: "MAY 2008 – MAY 2009",
+      jobdesc: [
+        "Responsibility to Prepares asset, liability, and capital account entries by compiling and analyzing account information. Documents financial transactions by entering account information. Recommends financial actions by analyzing accounting options.",
       ],
     },
   ],
@@ -92,5 +101,11 @@ module.exports = {
       category: "html",
     },
   ],
-  hobbies: ["Reading", "Cycling", "Travelling"],
+  hobbies: [
+    "Reading - Tamil books | Writing (Beginner)",
+    "Watching World Movies",
+    "Badminton | Cricket | Carrom | Card games",
+    "Walking | Running | Cycling | Bike Riding",
+    "Traval | Photography | Video Making",
+  ],
 };
