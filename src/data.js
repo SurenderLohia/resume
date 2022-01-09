@@ -12,11 +12,12 @@ module.exports = {
     {
       company: 'JANA Small Finance Bank',
       location: 'Chennai',
-      title:
-        'JMC (Agent Banking) , AH - Nano, AH - SBACM (Area Collection Manager)',
+      title: 'Area Manager (AH)',
       period: 'FEB 2017 - JULY 2021',
       jobdesc: [
-        'Responsibility for team handling, providing training, creating work schedules, filing timesheets, and performing any disciplinary actions.',
+        'Individual loan, business loan, and cross-sell. Sales and collection.',
+        'Area Collection Manager (ACM) - Handling two branches with 12 executives involved in the collection and PD verification.',
+        'Managing small-batch loans, Individual loans, and gold loan collection, above BKT 2 (60 days) portfolio of around 10 crores.',
       ],
     },
     {
