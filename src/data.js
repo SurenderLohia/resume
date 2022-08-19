@@ -106,6 +106,15 @@ module.exports = {
       techStack: 'HTML5, CSS3, JavaScript and Svelte.',
     },
     {
+      title: 'Assembly',
+      company: 'Assembly',
+      link: 'https://www.joinassembly.com',
+      description:
+        'Assembly is a Recognition and Workflow platform, to improve work culture and productivity in on organization.',
+      techStack:
+        'HTML5, CSS3, JavaScript, React, TypeScript, MaterialUI, ReactQuery, StyledComponent, Redux, Zustand, Jest, PlayWright, Atomic Design, Node.js, Express, MongoDB and Redis.',
+    },
+    {
       title: 'HappyFox Chat',
       company: 'HappyFox',
       link: 'https://happyfoxchat.com',
