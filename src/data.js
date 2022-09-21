@@ -28,7 +28,7 @@ module.exports = {
       company: 'Assembly',
       location: 'Bangalore',
       title: 'Senior Frontend Developer',
-      period: 'OCT 2020 - PRESENT',
+      period: 'OCT 2020 - AUG 2022',
       jobDesc: [
         'Responsibility to develop large scale application. Coordinate with designer, back-end team and BA. Front-end tech stack HTML5, CSS3, JavaScript, Sass, React, Redux, StyledComponents, ReactQuery, Zustand, PlayWright, Atomic Design, Webpack, Npm, Jest, StoryBook, Figma',
       ],
@@ -37,7 +37,7 @@ module.exports = {
       company: 'Tenantcube',
       location: 'Bangalore',
       title: 'Senior Frontend Developer',
-      period: 'MAY 2020 - PRESENT',
+      period: 'MAY 2020 - SEP 2020',
       jobDesc: [
         'Responsibility to develop large scale application. Coordinate with designer, back-end team and BA. Front-end tech stack HTML5, CSS3, JavaScript, Sass, React, Redux, Webpack, Npm, Jest.',
       ],
