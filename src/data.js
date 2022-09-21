@@ -1,7 +1,7 @@
 module.exports = {
   profile: {
     name: 'Surender Lohia',
-    title: 'Senior Frontend Developer at Assembly',
+    title: 'Senior Frontend Developer',
     photo: 'https://avatars1.githubusercontent.com/u/6301437?s=460&v=4', // 300x300px
     city: 'Bangalore, India',
     website: 'https://www.surender.net/',
